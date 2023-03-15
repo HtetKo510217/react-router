@@ -26,6 +26,17 @@ nav a {
 .center {
   height: calc(100vh - 100px);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.btn {
+  margin: 20px 0 0;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #ccc;
+  color: darkred;
+  cursor: pointer;
 }
