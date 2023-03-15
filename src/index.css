@@ -19,7 +19,10 @@ nav {
 nav a {
   margin-right: 15px;
 }
-
+/* nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+} */
 .center {
   height: calc(100vh - 100px);
   display: flex;
