@@ -8,9 +8,10 @@ export default function Navbar() {
   }
 
   return (
-    <nav>
+    <nav className='primary-nav'>
         <NavLink style={navLinkStyles} to='/'>Home</NavLink>
         <NavLink style={navLinkStyles} to='/about'>About</NavLink>
+        <NavLink style={navLinkStyles} to='/products'>Products</NavLink>
     </nav>
   )
 }
