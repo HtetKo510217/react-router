@@ -44,3 +44,7 @@ nav a {
   color: darkred;
   cursor: pointer;
 }
+.textGroup {
+  margin: 50px;
+  text-align: justify;
+}
